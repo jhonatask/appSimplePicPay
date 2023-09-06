@@ -4,7 +4,7 @@ import br.com.jproject.dto.transaction.TransactionDTO;
 import br.com.jproject.entity.transaction.Transaction;
 import org.mapstruct.Mapper;
 
-@Mapper(componentModel = "cdi")
+@Mapper(componentModel = "jakarta")
 public interface TransactionMapperDTO {
     TransactionDTO transacitonToTransactionDTO(Transaction entity);
     Transaction transacitonDtoToTransaction(TransactionDTO entity);

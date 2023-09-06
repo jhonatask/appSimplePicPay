@@ -1,4 +1,4 @@
-package br.com.jproject.repository.user;
+package br.com.jproject.repositorys.user;
 
 
 import br.com.jproject.entity.user.User;

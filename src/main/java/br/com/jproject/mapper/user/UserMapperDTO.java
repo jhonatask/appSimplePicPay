@@ -5,7 +5,7 @@ import br.com.jproject.dto.user.UserDTO;
 import br.com.jproject.entity.user.User;
 import org.mapstruct.Mapper;
 
-@Mapper(componentModel = "cdi")
+@Mapper(componentModel = "jakarta")
 public interface UserMapperDTO {
 
     UserDTO userDtoToUser(User entity);
